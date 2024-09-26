@@ -1,0 +1,104 @@
+
+*{
+    font-family: 'Lato';
+}
+.fill-heading{
+    font-size: 32px;
+    font-weight: 700;
+}
+.form-inputs{
+    width: 500px;
+    border-radius: 6px;
+    outline: none;
+}
+.area-heading{
+    font-size: 18px;
+    font-weight: 700;
+}
+.address{
+    width: 500px;
+    height: 112px;
+}
+.address::placeholder{
+    font-size: 14px;
+    padding-left: 15px;
+}
+.from-input,.to-input{
+    width: 81px;
+    height: 39px;
+}
+.from p,.to p{
+    font-weight: 700;
+}
+.volunteer-send-btn{
+    width: 89px;
+    height: 42px;
+    background-color: #2E3192;
+    text-align: center;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    color: white;
+}
+label{
+    font-size: 13.5px;
+    color: black;
+}
+.form-inputs input::placeholder{
+    font-size: 14px;
+    padding-left: 15px;
+    color:#858383;
+}
+.city-would-like{
+    font-size: 16px;
+    font-weight: 700;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #804499;
+    color: white;
+}
+.select-day,.daily{
+    color: #804499;
+}
+.dropdown-toggle{
+    background-color: white;
+    border: 1px solid black;
+}
+.dropdown-menu {
+    z-index: 1000; 
+}
+img {
+    z-index: 1100;
+    position: relative; 
+}
+.form-check-label-custom{
+    display: inline-flex;
+    justify-content: center;
+}
+.form-check-input-custom {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000; 
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    cursor: pointer;
+  }
+  .form-check-input-custom:checked::before {
+    content: "✔"; 
+    color: black; 
+    font-size: 12px; 
+    line-height: 0; 
+  }  
+  .form-check-input-custom:checked {
+    border-color: black; 
+    background-color: transparent; 
+  }
+@media(min-width:430px) and (max-width:769px){
+    .v-images{
+        display: flex;
+    }
+}
